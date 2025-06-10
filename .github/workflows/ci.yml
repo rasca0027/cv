@@ -33,5 +33,7 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Run yarn build 
+      - name: Run yarn install
+        run: yarn install --immutable
+      - name: Run yarn build
         run: yarn build

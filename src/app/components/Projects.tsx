@@ -129,19 +129,6 @@ export function Projects({ projects }: ProjectsProps) {
                                 role="feed"
                                 aria-labelledby="side-projects"
                         >
-                                {projects.map((project) => (
-                                        <article
-                                                key={project.title}
-                                                className="h-full" // Added h-full here
-                                        >
-                                                <ProjectCard
-                                                        title={project.title}
-                                                        description={project.description}
-                                                        tags={project.techStack}
-                                                        link={"link" in project ? project.link.href : undefined}
-                                                />
-                                        </article>
-                                ))}
                         </div>
                 </Section>
         );

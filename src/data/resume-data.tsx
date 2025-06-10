@@ -24,8 +24,8 @@ export const RESUME_DATA = {
 
                 </>
         ),
-        // avatarUrl: "",
-        // personalWebsiteUrl: "https://jarocki.me",
+        avatarUrl: "",
+        personalWebsiteUrl: "",
         contact: {
                 email: "rasca0027@gmail.com",
                 tel: "+13472485125",

@@ -158,6 +158,10 @@ export function Header() {
           locationLink={RESUME_DATA.locationLink}
         />
 
+        <ContactButtons
+          contact={RESUME_DATA.contact}
+          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
+        />
         <PrintContact
           contact={RESUME_DATA.contact}
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}

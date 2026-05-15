@@ -67,13 +67,13 @@ export const RESUME_DATA = {
                   end: null,
                   description: (
                     <>
-                      Senior Software Engineer that focused on applicant and resident experience.
+                      Senior Software Engineer focusing on applicant and resident experience.
                       <ul className="list-inside list-disc">
                         <li>
                           Designed and implemented critical third-party integrations to synchronize leasing data with internal systems, improving data consistency and reliability across platforms.
                         </li>
                         <li>
-                          Delivered and refactored a leasing lifecycle event-driven system, resulting in more structured codebase, improved maintainability, and clearer, more traceable audit trails.
+                          Delivered a leasing lifecycle event-driven system, resulting in more structured codebase, improved maintainability, and clearer, more traceable audit trails.
                         </li>
                         <li>
                           Established and promoted event-driven architecture guidelines across the team, advocating for best practices and driving more consistent system design
@@ -119,24 +119,23 @@ export const RESUME_DATA = {
                   start: "2024",
                   end: "2020",
                   description: (
-                          <>
-                                  Joined as a backend engineer on Registration Decision Team and later
-                                  transitioned to Platform team as Senior Software Engineer, built and maintained internal tools and CI/CD pipeline.
-                                  <ul className="list-inside list-disc">
-                                          <li>
-                                                  Developed and maintained a decision flow engine that supported flexible evaluation logic.
-                                          </li>
-                                          <li>
-                                                  Created an event-driven architecture framework using AWS Lambda and SQS to refactor legacy long-runnig synchronous jobs by building internal libraries, Terraform modules, code templates and documentation, which helped with jobs scalability and decreased error rate.
-                                          </li>
-                                          <li>
-                                                  Co-led the migration project of the company-wide CI/CD pipeline from Jenkins to Azure DevOps, shortening 35% CI and deployment lead time.
-                                          </li>
-                                          <li>
-                                                  Founded an internal Python standards working group to set up company-wide Python coding style guidelines and maintained internal libraries for the engineering team.
-                                          </li>
-                                  </ul>
-                          </>
+                    <>
+                      Joined as a backend engineer on Registration Decision Team and later transitioned to Platform team as Senior Software Engineer, built and maintained internal tools and CI/CD pipeline.
+                      <ul className="list-inside list-disc">
+                              <li>
+                                Developed and maintained a decision flow engine that supported flexible evaluation logic.
+                              </li>
+                              <li>
+                                Created an event-driven architecture framework using AWS Lambda and SQS to refactor legacy long-runnig synchronous jobs by building internal libraries, Terraform modules, code templates and documentation, which helped with jobs scalability and decreased error rate.
+                              </li>
+                              <li>
+                                Co-led the migration project of the company-wide CI/CD pipeline from Jenkins to Azure DevOps, shortening 35% CI and deployment lead time.
+                              </li>
+                              <li>
+                                Founded an internal Python standards working group to set up company-wide Python coding style guidelines and maintained internal libraries for the engineering team.
+                              </li>
+                      </ul>
+                    </>
                   ),
                 },
                 {
@@ -147,17 +146,7 @@ export const RESUME_DATA = {
                   logo: ClevertechLogo,
                   start: "2020",
                   end: "2018",
-                  description: (
-                    <>
-                      <ul className="list-inside list-disc">
-                        <li>
-                        Developed and maintained scalable backend API services for authentication, used in company wide applications including websites, SDKs and multiple official Unity applications.
-                        </li>
-                        <li>
-                        Introduced DevOps culture into the company by setting up CI/CD processes, linters, and documentations.
-                        </li>
-                      </ul>
-                    </>
+                  description: (<></>
                   ),
                 },
         ],
@@ -165,7 +154,6 @@ export const RESUME_DATA = {
                 "Python",
                 "Typescript",
                 "Node.js",
-                "Go",
                 "Kotlin",
                 "AWS Certified Solutions Architect (SAA-C03)",
                 "AWS",

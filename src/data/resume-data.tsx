@@ -116,8 +116,8 @@ export const RESUME_DATA = {
                   badges: ["Hybrid", "NYC"],
                   title: "Senior Software Engineer",
                   logo: ClevertechLogo,
-                  start: "2024",
-                  end: "2020",
+                  start: "2020",
+                  end: "2024",
                   description: (
                     <>
                       Joined as a backend engineer on Registration Decision Team and later transitioned to Platform team as Senior Software Engineer, built and maintained internal tools and CI/CD pipeline.
@@ -144,8 +144,8 @@ export const RESUME_DATA = {
                   badges: ["NYC"],
                   title: "Software Engineer",
                   logo: ClevertechLogo,
-                  start: "2020",
-                  end: "2018",
+                  start: "2018",
+                  end: "2020",
                   description: (<></>
                   ),
                 },
